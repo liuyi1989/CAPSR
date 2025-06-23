@@ -20,7 +20,7 @@ bash ./main.sh 4 --train
 
 * `python main.py --test` for trained model testing
 
-|       name       | resolution | acc@1  | #params |  FLOPS  | resample | training loss |
-|:----------------:|:----------:|:-----:|:-------:|:-------:|---------:|--------------:|
-| CAPSR-L |  300x300   | 79.06  | 96.7  | 16.7777 | BILINEAR |  CrossEntropy |
+|       name       | resolution | acc@1   | resample | training loss |
+|:----------------:|:----------:|:-----:|---------:|--------------:|
+| CAPSR-L |  300x300   | 79.06  | BILINEAR |  CrossEntropy |
 
